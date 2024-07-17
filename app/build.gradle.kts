@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.landmarkclassifier"
-        minSdk = 33
+        minSdk = 31
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -54,6 +54,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material3:material3:1.2.1")
+    implementation("com.google.android.material:material:1.6.0-alpha02")
 
     val cameraxVersion = "1.3.0-rc01"
 
